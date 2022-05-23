@@ -1,3 +1,8 @@
-import pageLoad from "./mainpage";
+import pageLoad from "./mainpage"
+import pizzaLoad from "./pizzaimg"
+import pizzaMenu from "./pizzapage"
 
-pageLoad();
+
+pizzaMenu()
+pageLoad()
+

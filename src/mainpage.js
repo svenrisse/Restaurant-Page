@@ -4,11 +4,6 @@ import "./components/styles/mainpage.css"
 function mainPage() {
     
     const container = document.querySelector("#content")
-    // image for left side of screen
-    const image = new Image()
-    image.src = pizza
-    image.classList.add("image")
-    container.appendChild(image)
 
     // title and welcome message
 
