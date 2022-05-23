@@ -11,12 +11,13 @@
     align-items: center;
 }
 
-.pizzaImage {
-    height: 20vh;
-    width: 12vw;
+.menuImage {
+    height: 25vh;
+    width: 15vw;
+    border-radius: 5%;
 }
 
-.pizzaDescription {
+.menuDescription {
     justify-self: start;
     width: 10vw;
     font-weight: 600;
