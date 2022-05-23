@@ -1,6 +1,25 @@
 
 .recipeContainer {
+    height: 100vh;
+    width: 55vw;
+    background-color: #f8fafc;
+    box-shadow: 4px 1px 10px #65a30d;
     grid-area: 1 / 1 / span 4;
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.pizzaImage {
+    height: 20vh;
+    width: 12vw;
+}
+
+.pizzaDescription {
+    justify-self: start;
+    width: 10vw;
+    font-weight: 600;
+    font-size: 19px;
+    text-shadow: 1px 1px 10px #f87171;
 }

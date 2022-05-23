@@ -3,6 +3,11 @@ import pizzaLoad from "./pizzaimg"
 import pizzaMenu from "./pizzapage"
 
 
-pizzaMenu()
+pizzaLoad()
 pageLoad()
+
+const pizzaButton = document.querySelector(".pizzaButton")
+pizzaButton.addEventListener("click", () => {
+    pizzaMenu()
+})
 
